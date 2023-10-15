@@ -1,0 +1,98 @@
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bottom{
+  display: flex;
+  height: 295px;
+  flex-shrink: 0;
+  background: linear-gradient(180deg, #110E11 8.85%, #0E2626 100%);
+  flex-direction: column;
+}
+.bottom_t{
+      display: flex;
+      color: #FFF;
+      font-family: Inter;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      flex: 2 1;
+      justify-content: space-evenly;
+      padding-inline: 200px;
+}
+
+.bottom_t2{
+  display: flex;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  flex: 2 1;
+  justify-content: space-evenly;
+  padding-inline: 200px;
+}
+
+.vk_tg_wats{
+      display: flex;
+      flex: 2 1;
+      justify-content: space-evenly;
+  }
+
+
+
+
+@media (max-width: 992px) {
+  .bottom{
+    display: flex;
+    height: 295px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #110E11 8.85%, #0E2626 100%);
+    flex-direction: column;
+  }
+  .bottom_t{
+        display: flex;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        flex: 2 1;
+        justify-content: space-evenly;
+        padding-inline: 200px;
+  }
+  
+  .bottom_t2{
+    display: flex;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex: 2 1;
+    justify-content: space-evenly;
+    padding-inline: 200px;
+  }
+  
+  .vk_tg_wats{
+        display: flex;
+        flex: 2 1;
+        justify-content: space-evenly;
+    }
+  }
